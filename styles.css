@@ -95,3 +95,15 @@ a {
     color: #333;
     font-weight: 600;
 }
+
+input:hover {
+    background-color: #f0f0f0;
+}
+
+button:hover {
+     background-color: #5ec2f2
+}
+
+a:hover {
+    text-decoration: underline;
+}
