@@ -90,12 +90,12 @@ a {
 .botao {
     width: 100%;
     height: 50px;
-    background-color: #fff;
+    background: linear-gradient(to right, #00BFFF, #007ACC);
+    color: white;
     border: none;
     border-radius: 40px;
     cursor: pointer;
     font-size: 13px;
-    color: #333;
     font-weight: 600;
 }
 
@@ -103,8 +103,18 @@ input:hover {
     background-color: #f0f0f0;
 }
 
+button {
+  background: linear-gradient(to right, #00BFFF, #007ACC);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  transition: 0.5s ease;
+}
+
+/* Escurece ao passar o mouse */
 button:hover {
-     background-color: #5ec2f2
+  background: linear-gradient(to right, #0096E0, #005EA6); /* degradê mais escuro */
+  box-shadow: 0 0 8px rgba(0, 122, 204, 0.6);
 }
 
 a:hover {
