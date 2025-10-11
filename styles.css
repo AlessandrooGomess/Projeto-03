@@ -22,11 +22,12 @@ body {
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 20px;
-    color: #303134;;
+    color: #303134;
+    ;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-.container > * {
+.container>* {
     padding: 20px;
 }
 
@@ -45,7 +46,8 @@ h1 {
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 30px 0;;
+    margin: 30px 0;
+    ;
 }
 
 .login input {
@@ -104,17 +106,18 @@ input:hover {
 }
 
 button {
-  background: linear-gradient(to right, #00BFFF, #007ACC);
-  border: none;
-  border-radius: 25px;
-  color: white;
-  transition: 0.5s ease;
+    background: linear-gradient(to right, #00BFFF, #007ACC);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    transition: 0.5s ease;
 }
 
 /* Escurece ao passar o mouse */
 button:hover {
-  background: linear-gradient(to right, #0096E0, #005EA6); /* degradê mais escuro */
-  box-shadow: 0 0 8px rgba(0, 122, 204, 0.6);
+    background: linear-gradient(to right, #0096E0, #005EA6);
+    /* degradê mais escuro */
+    box-shadow: 0 0 8px rgba(0, 122, 204, 0.6);
 }
 
 a:hover {
