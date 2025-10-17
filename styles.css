@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(./imagens/background.jpg);
+    background: url(imagens/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -127,7 +127,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(./imagens/background-main.jpg);
+    background: url(imagens/background-main.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -230,6 +230,15 @@ select:hover {
 
 @media(max-width:600px){
 
+    .container {
+    width: 400px;
+}
+
+.container>* {
+    padding: 20px;
+}
+    
+
     .container-main {
     width: 420px;
 }
@@ -241,6 +250,14 @@ select:hover {
 }
 
 @media(min-width:160px) and (max-width:450px){
+
+        .container {
+    width: 300px;
+}
+
+.container>* {
+    padding: 15px;
+}
 
     .container-main {
     width: 320px;
