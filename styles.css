@@ -228,43 +228,43 @@ select:hover {
     cursor: pointer;
 }
 
-@media(max-width:600px){
+@media(max-width:600px) {
 
     .container {
-    width: 400px;
-}
+        width: 400px;
+    }
 
-.container>* {
-    padding: 20px;
-}
-    
+    .container>* {
+        padding: 20px;
+    }
 
-    .container-main {
-    width: 420px;
-}
-
-.container-main>* {
-    padding: 50px 25px;
-}
-
-}
-
-@media(min-width:160px) and (max-width:450px){
-
-        .container {
-    width: 300px;
-}
-
-.container>* {
-    padding: 15px;
-}
 
     .container-main {
-    width: 320px;
+        width: 420px;
+    }
+
+    .container-main>* {
+        padding: 50px 25px;
+    }
+
 }
 
-.container-main>* {
-    padding: 10px 5px;
-}
+@media(min-width:160px) and (max-width:450px) {
+
+    .container {
+        width: 300px;
+    }
+
+    .container>* {
+        padding: 15px;
+    }
+
+    .container-main {
+        width: 320px;
+    }
+
+    .container-main>* {
+        padding: 10px 5px;
+    }
 
 }
