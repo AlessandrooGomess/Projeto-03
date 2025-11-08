@@ -217,7 +217,7 @@ h2 {
 }
 
 select:hover {
-    background: linear-gradient(to right, #00BFFF, #007ACC);
+    background: #333333;
     transition: 0.1s ease;
     cursor: pointer;
 }
